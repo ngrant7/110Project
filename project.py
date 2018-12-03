@@ -8,5 +8,11 @@ class Hangman:
     hide = '_'
     wordLength = (hide * len(word))
     return print(wordLength)
-    
-    
+  
+  def guessLetters(self, letter):
+    if letter in ?? and letter not in guessedLetter:
+      guessedLetter.append(letter)
+    elif letter not in ?? and letter not in missedLetter:
+      missedLetter.append(letter)
+    else:
+      return False
