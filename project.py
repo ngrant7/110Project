@@ -16,3 +16,9 @@ class Hangman:
       missedLetter.append(letter)
     else:
       return False
+   
+  def gameEnd(self):    # Not sure about this function
+    while len(missedLetter) < 6:
+      return True
+    else:
+      return False
