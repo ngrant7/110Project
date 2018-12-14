@@ -83,7 +83,7 @@ def guessLetter(my_guess, word, word_List, blanks_List):
 
     print(seperator.join(blanks_List))
 
-  elif my_guess not in end_List:
+  elif my_guess not in word:
     print("Bad Guess! The letter %s is not in your word." % (my_guess))
      
   return 
